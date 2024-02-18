@@ -33,9 +33,9 @@ limiter = Limiter(app=app, key_func=get_remote_address)
 ### Defining variables that u see after POST(typing username) request
 
 # Variables with faucet wallet details
-faucetUsername = '' # Your username from duino coin
-faucetPassword = '' # Your password from duino coin
-msgToSend = 'duinocoinfaucet.slxuniverse.com' # Message to send with ducos
+faucetUsername = 'rogminer' # Your username from duino coin
+faucetPassword = 'AJRrulez20' # Your password from duino coin
+msgToSend = 'CatFaucet claim' # Message to send with ducos
 
 ### Code that is executed every time u visit website
 @app.route("/", methods=['GET']) # Defining request that u can do get(get info)

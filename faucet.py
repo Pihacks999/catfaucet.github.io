@@ -79,8 +79,8 @@ def giveMeDucos():
     if "darestz" in ducoUsername:
         return render_template('myes.html')
 
-    # if "applerobloxgames" in ducoUsername:
-    #    return print("You are dumb")
+    # if "rogminer" in ducoUsername:
+    #    return print("stupid head")
 
     ip = request.environ.get('REMOTE_ADDR')
 

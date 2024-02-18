@@ -27,14 +27,14 @@ limiter = Limiter(app=app, key_func=get_remote_address)
 ### Defining variables that u see after POST(typing username) request
 
 ### Defining variables that u see after POST(typing username) request
-# firstname = str("Duino Coin Faucet - By SLX Universe")
+# firstname = str("Catfaucet by gamecat999")
 # lastname = str(" 🍵 Donations are welcome :)")
-# duco_dnt0 = str("DUCO: applerobloxgames")
+# duco_dnt0 = str("DUCO: gamecat999")
 ### Defining variables that u see after POST(typing username) request
 
 # Variables with faucet wallet details
-faucetUsername = 'rogminer' # Your username from duino coin
-faucetPassword = 'AJRrulez20' # Your password from duino coin
+faucetUsername = 'gamecat999' # Your username from duino coin
+faucetPassword = 'Jbllc100' # Your password from duino coin
 msgToSend = 'CatFaucet claim' # Message to send with ducos
 
 ### Code that is executed every time u visit website
@@ -79,7 +79,7 @@ def giveMeDucos():
     if "darestz" in ducoUsername:
         return render_template('myes.html')
 
-    # if "rogminer" in ducoUsername:
+    # if "gamecat999" in ducoUsername:
     #    return print("stupid head")
 
     ip = request.environ.get('REMOTE_ADDR')
@@ -96,7 +96,7 @@ def giveMeDucos():
 
     number1 = float(0.001)
     number2 = float(not_splitted_var)
-    percent = 3.33 # Amount how many duco when claim faucet
+    percent = 0.1 # Amount how many duco when claim faucet
     print(percent)
 
 
